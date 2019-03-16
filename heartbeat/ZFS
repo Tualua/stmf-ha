@@ -24,7 +24,7 @@
 
 # Set the variable below to '1' to enable zpool import/export logging.
 # This is useful to determine how long these operations take on your system.
-# DEBUG=0
+DEBUG=0
 DEBUGLOG="/var/log/ZFS_cluster_debug.log"
 
 USAGE="usage: $0 {start|stop|status|monitor|validate-all|meta-data}";
